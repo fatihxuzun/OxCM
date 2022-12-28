@@ -36,9 +36,9 @@ oxCM needs 5 imputs
 --data, a string value that define the data file in any plain text file format
 
 Place mesh file and data file in the project folder
-```bash
-.../myProjectFolder$
-```
+
+/myProjectFolder$
+
 Run oxCM command line interface
 
 ```bash
