@@ -53,7 +53,3 @@ The oxCM saves outputs in 'vtu' format to the results folder
 This project has been developed as a part of the study that aims to understand the influence of processing conditions on the accuracy of the contour method residual stress quantifications. Please cite:
 
 doi link to the paper
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
