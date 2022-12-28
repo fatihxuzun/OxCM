@@ -1,4 +1,4 @@
-# The oxCM Contour Method Solver
+# oxCM Contour Method Solver
 ![logo](https://raw.githubusercontent.com/fffatttihhh/oxCM/main/logo.png)
 
 
