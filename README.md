@@ -28,7 +28,7 @@ pip install oxCM
 ```
 
 ## oxCM Command Line Interface
-oxCM command line interface (CLI) relies on five parameters
+oxCM command line interface (CLI) relies on 5 parameters:
 
 1. --degree, an integer value that define degree of function space
 
@@ -46,7 +46,7 @@ Mesh file and data file should be located in the user created project folder:
 /myProjectFolder$
 
 ## Usage
-Running oxCM command line interface (CLI) using training files
+Running oxCM command line interface (CLI) using training files:
 
 ```bash
 oxCM --degree 1 --young 200e3 --poisson 0.29 --mesh 'myMesh.xml' --data 'myData.txt'
