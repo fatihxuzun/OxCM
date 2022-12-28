@@ -42,12 +42,11 @@ Place mesh file and data file in the project folder
 Run oxCM command line interface
 
 ```bash
-.../myProjectFolder$ oxCM --degree 1 --young 200e3 --poisson 0.3 --mesh 'myMesh.xml' --data 'myData.txt'
+oxCM --degree 1 --young 200e3 --poisson 0.3 --mesh 'myMesh.xml' --data 'myData.txt'
 ```
 The oxCM saves outputs in 'vtu' format to the results folder
-```bash
-.../myProjectFolder/results$
-```
+
+/myProjectFolder/results$
 
 ## Scientific Usage
 This project has been developed as a part of the study that aims to understand the influence of processing conditions on the accuracy of the contour method residual stress quantifications. Please cite:
