@@ -28,7 +28,7 @@ pip install oxCM
 ```
 
 ## oxCM Command Line Interface
-oxCM command line interface (CLI) relies on five paramters
+oxCM command line interface (CLI) relies on five parameters
 
 1. --degree, an integer value that define degree of function space
 
