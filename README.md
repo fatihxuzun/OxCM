@@ -17,12 +17,12 @@ dolfin is the computational environment of FEniCS available in the latest stable
 
 https://fenicsproject.org/download/archive/
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install tested versions of numpy, scipy and click
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install tested versions of numpy, scipy and click:
 
 ```bash
-pip install oxCM
-pip install oxCM
-pip install oxCM
+pip install numpy==1.24.1
+pip install scipy==1.9.3
+pip install click==8.1.3
 ```
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install oxCM:
