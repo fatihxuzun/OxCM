@@ -7,11 +7,11 @@
 
 dolfin
 
-numpy
+numpy 1.24.1
 
-scipy
+scipy 1.9.3
 
-click
+click 8.1.3
 
 
 ## Installation
@@ -35,16 +35,17 @@ oxCM needs 5 imputs
 
 --data, a string value that define the data file in any plain text file format
 
-Place mesh file and data file in the project folder
+Place mesh file and data file in the project folder:
 
 /myProjectFolder$
+
 
 Run oxCM command line interface
 
 ```bash
 oxCM --degree 1 --young 200e3 --poisson 0.3 --mesh 'myMesh.xml' --data 'myData.txt'
 ```
-The oxCM saves outputs in 'vtu' format to the results folder
+The oxCM saves outputs in 'vtu' format to the results folder:
 
 /myProjectFolder/results$
 
