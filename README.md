@@ -3,11 +3,11 @@
 
 
 ## Dependencies
-dolfin
+* dolfin
 
-numpy 1.24.1
+* numpy 1.24.1
 
-scipy 1.9.3
+*scipy 1.9.3
 
 click 8.1.3
 
