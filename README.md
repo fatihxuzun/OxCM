@@ -3,10 +3,9 @@
 
 ## Dependencies
 * dolfin
-* numpy 1.24.1
-* scipy 1.9.3
-* click 8.1.3
-
+* numpy
+* scipy
+* click
 
 ## Installation
 dolfin is the computational environment of FEniCS available in the latest stable release of legacy FEniCS that should be installed using the instructions given in this link:
