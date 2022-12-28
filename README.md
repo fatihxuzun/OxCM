@@ -1,5 +1,5 @@
 # oxCM Contour Method Solver
-![logo](https://raw.githubusercontent.com/fffatttihhh/oxCM/main/logo.png)
+![logo](https://raw.githubusercontent.com/fffatttihhh/oxCM/main/oxCM_logo.png)
 
 ## Dependencies
 * dolfin
