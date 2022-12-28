@@ -1,5 +1,4 @@
 # oxCM Contour Method Solver
-![logo](https://raw.githubusercontent.com/fffatttihhh/oxCM/main/logo.png)
 
 
 ## Dependencies
