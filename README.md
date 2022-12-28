@@ -13,7 +13,19 @@ click 8.1.3
 
 
 ## Installation
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install oxCM.
+dolfin is the computational environment of FEniCS available in the latest stable release of legacy FEniCS that should be installed using the instructions given in this link:
+
+https://fenicsproject.org/download/archive/
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install tested versions of numpy, scipy and click
+
+```bash
+pip install oxCM
+pip install oxCM
+pip install oxCM
+```
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install oxCM:
 
 ```bash
 pip install oxCM
