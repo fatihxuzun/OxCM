@@ -4,11 +4,8 @@
 
 ## Dependencies
 * dolfin
-
 * numpy 1.24.1
-
 * scipy 1.9.3
-
 * click 8.1.3
 
 
@@ -60,10 +57,9 @@ oxCM --degree 1 --young 200e3 --poisson 0.29 --mesh 'myMesh.xml' --data 'myData.
 Outputs of the oxCM are ParaWiev plots of displacement, elastic strain and stress with a log file of CLI parameters:
 
 * Displacement.vtu
-
 * ElasticStrain.vtu
-
 * Stress.vtu
+* Parameters.log
 
 The oxCM saves outputs to the results folder located in the project folder:
 
