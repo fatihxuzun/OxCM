@@ -3,10 +3,6 @@
 
 This project presents oxCM contour method solver, structured on the legacy version of the FEniCS open-source computing platform, that provides a standardized way of solution to the linear elastic numerical model for the calculation of residual stresses corresponding to the measured displacements, that appear because of the changes in the boundary conditions after non-contact cutting, by a single line command in the availability of a domain composed of tetrahedral mesh and experimentally collected and processed profilometry data. For more information see the citing paper given below and contact with the authors of this paper.
 
-https://eng.ox.ac.uk/people/fatih-uzun/
-
-https://eng.ox.ac.uk/people/alexander-korsunsky/
-
 ## Dependencies
 * dolfin
 * numpy
