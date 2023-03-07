@@ -25,7 +25,7 @@ pip install click==8.1.3
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install oxCM:
 
 ```bash
-sudo pip install git+https://github.com/fatihxuzun/oxCM.git
+pip install git+https://github.com/fatihxuzun/oxCM.git
 ```
 
 ## oxCM Command Line Interface
