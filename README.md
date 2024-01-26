@@ -1,4 +1,4 @@
-# oxCM Contour Method Solver
+# OxCM Contour Method Solver
 ![logo](https://raw.githubusercontent.com/fffatttihhh/oxCM/main/oxCM_logo.png)
 
 This project presents oxCM contour method solver, structured on the legacy version of the FEniCS open-source computing platform, that provides a standardized way of solution to the linear elastic numerical model for the calculation of residual stresses corresponding to the measured displacements, that appear because of the changes in the boundary conditions after non-contact cutting, by a single line command in the availability of a domain composed of tetrahedral mesh and experimentally collected and processed profilometry data. For more information see the citing paper given below and contact with the authors of this paper.
@@ -25,10 +25,10 @@ pip install click==8.1.3
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install oxCM:
 
 ```bash
-pip install git+https://github.com/fatihxuzun/oxCM.git
+pip install git+https://github.com/fatihxuzun/OxCM.git
 ```
 
-## oxCM Command Line Interface
+## OxCM Command Line Interface
 oxCM command line interface (CLI) relies on 5 parameters:
 
 1. --degree, an integer value that define degree of function space
@@ -41,27 +41,27 @@ oxCM command line interface (CLI) relies on 5 parameters:
 
 5. --data, a string value that define the data file in any plain text file format
 
-## oxCM Input Files
+## OxCM Input Files
 Mesh file and data file should be located in the user created project folder:
 
 /myProjectFolder$
 
 ## Usage
-Running oxCM command line interface (CLI) using training files:
+Running OxCM command line interface (CLI) using training files:
 
 ```bash
 oxCM --degree 1 --young 200e3 --poisson 0.29 --mesh 'myMesh.xml' --data 'myData.txt'
 ```
 
 ## Outputs
-Outputs of the oxCM are ParaWiev plots of displacement, elastic strain and stress with a log file of CLI parameters:
+Outputs of the OxCM are ParaWiev plots of displacement, elastic strain and stress with a log file of CLI parameters:
 
 * Displacement.vtu
 * ElasticStrain.vtu
 * Stress.vtu
 * Parameters.log
 
-The oxCM saves outputs to the results folder located in the project folder:
+The OxCM saves outputs to the results folder located in the project folder:
 
 /myProjectFolder/results$
 
