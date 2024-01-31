@@ -10,7 +10,7 @@ This project presents OxCM contour method solver, structured on the legacy versi
 * click
 
 ## Installation
-Dolfin is the computational environment of FEniCS available in the latest stable release of legacy FEniCS that should be installed using the instructions given in this link:
+Dolfin is the computational environment of FEniCS available in the latest stable release of legacy FEniCS that should be installed with its dependencies using the instructions given in this link:
 
 https://fenicsproject.org/download/archive/
 
