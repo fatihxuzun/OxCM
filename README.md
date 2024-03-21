@@ -70,6 +70,6 @@ The OxCM saves outputs to the results folder located in the project folder:
 /myProjectFolder/results$
 
 ## Scientific Usage
-This project has been developed as a part of the study that aims to understand the influence of processing conditions and geometric irregularities on the accuracy of the contour method residual stress quantifications. Please cite:
+This solver has been developed as a part of the study that aims to understand the influence of processing conditions and geometric irregularities on the accuracy of the contour method residual stress quantifications. Please cite:
 
 doi link to the paper
