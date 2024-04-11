@@ -14,7 +14,7 @@ Dolfin is the computational environment of FEniCS available in the latest stable
 
 https://fenicsproject.org/download/archive/
 
-The latest version of the OxCM contour method solver is tested using Docker for FEniCS that should be installed using the instructions given in this link:
+The latest version of the OxCM contour method solver was tested by Docker for FEniCS that can be installed using the instructions given in this link:
 
 https://bitbucket.org/fenics-project/docker/src/master/
 
