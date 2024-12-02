@@ -25,9 +25,9 @@ https://fenics.readthedocs.io/projects/containers/en/latest/introduction.html#in
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install latest supported versions of numpy, scipy and click:
 
 ```bash
-pip install --upgrade numpy
-pip install --upgrade scipy
-pip install --upgrade click
+pip install --upgrade numpy --user
+pip install --upgrade scipy --user
+pip install --upgrade click --user
 ```
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install OxCM:
