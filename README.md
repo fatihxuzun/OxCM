@@ -32,7 +32,7 @@ Go to your shared folder and initiate the container:
 docker run -ti -v ${pwd}:/home/fenics/shared quay.io/fenicsproject/stable:latest
 ```
 
-Note the <container_name> from 'Docker -> Containers' and exit the running container 
+Note the <container_name> from 'Docker -> Containers' and exit the running container:
 
 ```bash
 exit
