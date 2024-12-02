@@ -22,6 +22,13 @@ Docker for FEniCS should be installed using the instructions given in this link:
 
 https://fenics.readthedocs.io/projects/containers/en/latest/introduction.html#installing-docker
 
+```bash
+docker pull quay.io/fenicsproject/stable:latest
+docker run -ti -v ${pwd}:/home/fenics/shared quay.io/fenicsproject/stable:latest
+exit
+docker exec -it <container_name> /bin/bash
+```
+
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install latest supported versions of numpy, scipy and click:
 
 ```bash
