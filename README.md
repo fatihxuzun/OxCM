@@ -25,7 +25,11 @@ https://fenics.readthedocs.io/projects/containers/en/latest/introduction.html#in
 ```bash
 docker pull quay.io/fenicsproject/stable:latest
 docker run -ti -v ${pwd}:/home/fenics/shared quay.io/fenicsproject/stable:latest
+```
+```bash
 exit
+```
+```bash
 docker exec -it <container_name> /bin/bash
 ```
 
