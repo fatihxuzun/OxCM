@@ -36,7 +36,7 @@ Note the <container_name> from 'Docker -> Containers' and exit the running conta
 exit
 ```
 
-Activate the container from 'Docker -> Containers' and initiate the same container: 
+Start the container from 'Docker -> Containers' and initiate the same container: 
 
 ```bash
 docker exec -it <container_name> /bin/bash
