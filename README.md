@@ -24,11 +24,22 @@ https://fenics.readthedocs.io/projects/containers/en/latest/introduction.html#in
 
 ```bash
 docker pull quay.io/fenicsproject/stable:latest
+```
+
+Go to your shared folder and initiate the container:
+
+```bash
 docker run -ti -v ${pwd}:/home/fenics/shared quay.io/fenicsproject/stable:latest
 ```
+
+Note the <container_name> from 'Docker -> Containers' and exit the running container 
+
 ```bash
 exit
 ```
+
+Activate the container from 'Docker -> Containers' and initiate the same container: 
+
 ```bash
 docker exec -it <container_name> /bin/bash
 ```
