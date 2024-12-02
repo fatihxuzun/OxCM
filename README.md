@@ -18,9 +18,7 @@ The latest version of the OxCM contour method solver was tested by Docker 4.24.1
 
 https://desktop.docker.com/win/main/amd64/123237/Docker%20Desktop%20Installer.exe
 
-Docker for FEniCS should be installed using the instructions given in this link:
-
-https://fenics.readthedocs.io/projects/containers/en/latest/introduction.html#installing-docker
+Install the Docker for FEniCS:
 
 ```bash
 docker pull quay.io/fenicsproject/stable:latest
