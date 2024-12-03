@@ -29,6 +29,7 @@ Go to your shared folder and initiate the container:
 ```bash
 docker run -ti -v ${pwd}:/home/fenics/shared quay.io/fenicsproject/stable:latest
 ```
+or
 ```bash
 docker run -ti -v $(pwd):/home/fenics/shared quay.io/fenicsproject/stable:latest
 ```
