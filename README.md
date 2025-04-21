@@ -14,24 +14,20 @@ Dolfin is the computational environment of legacy version of FEniCS that should 
 
 https://fenicsproject.org/download/archive/
 
-The latest version of the OxCM contour method solver was tested by Docker 4.24.1:
+The latest version of the OxCM contour method solver was tested by Docker Desktop 4.40.0:
 
-https://desktop.docker.com/win/main/amd64/123237/Docker%20Desktop%20Installer.exe
+https://docs.docker.com/desktop/
 
-Install the Docker for FEniCS:
+Install the Docker Desktop on Windows, MAC with Intel chip or MAC with Apple silicon and pull official ubuntu image:
 
 ```bash
-docker pull quay.io/fenicsproject/stable:latest
+docker pull ubuntu
 ```
 
 Go to your shared folder and initiate the container:
 
 ```bash
-docker run -ti -v ${pwd}:/home/fenics/shared quay.io/fenicsproject/stable:latest
-```
-or
-```bash
-docker run -ti -v $(pwd):/home/fenics/shared quay.io/fenicsproject/stable:latest
+docker run -ti -v $(pwd):/home ubuntu
 ```
 
 Note the <container_name> from 'Docker -> Containers' and exit the running container:
@@ -43,7 +39,32 @@ exit
 Start the container from 'Docker -> Containers' and initiate the same container: 
 
 ```bash
-docker exec -it <container_name> /bin/bash
+docker exec -it <container-name> /bin/bash
+```
+
+Create python3 environment for FEniCS installation:
+
+```bash
+apt-get install python3-venv
+python3 -m venv fenics-oxcm
+source fenics-oxcm/bin/activate
+```
+
+Install prerequisites:
+
+```bash
+apt-get update
+apt-get install sudo
+apt-get install pip
+```
+
+Install FEniCS on Ubuntu:
+
+```bash
+sudo apt-get install software-properties-common
+sudo add-apt-repository ppa:fenics-packages/fenics
+sudo apt-get update
+sudo apt-get install fenics
 ```
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install latest supported versions of numpy, scipy and click:
@@ -101,3 +122,6 @@ The OxCM saves outputs to the results folder located in the project folder:
 This solver has been developed as a part of the study that aims to understand the influence of processing conditions and geometric irregularities on the accuracy of the contour method residual stress quantifications. Please cite:
 
 Uzun, F., Korsunsky, A.M. The OxCM contour method solver for residual stress evaluation. Engineering with Computers (2024). https://doi.org/10.1007/s00366-024-01959-3
+
+## Publications
+Uzun, F., Korsunsky, A.M. Reconstruction of residual stresses in additively manufactured Inconel 718 bridge structures using contour method. Int J Adv Manuf Technol 137, 4573–4582 (2025). https://doi.org/10.1007/s00170-025-15417-x
