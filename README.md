@@ -18,6 +18,7 @@ The latest version of the OxCM contour method solver was tested by Docker Deskto
 
 https://docs.docker.com/desktop/
 
+
 Install the Docker Desktop on Windows, MAC with Intel chip or MAC with Apple silicon and pull official ubuntu image:
 
 ```bash
