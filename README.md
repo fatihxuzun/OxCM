@@ -53,8 +53,15 @@ apt-get update
 apt-get install sudo
 apt-get install pip
 apt-get install git
-apt-get install python3-click
 apt-get install python3-venv
+```
+
+Install dependencies:
+
+```bash
+apt-get install python3-numpy
+apt-get install python3-scipy
+apt-get install python3-click
 ```
 
 Install FEniCS on Ubuntu:
@@ -67,7 +74,7 @@ sudo apt update
 sudo apt install fenics
 ```
 
-Create python3 environment for FEniCS installation:
+Create Python 3 environment for FEniCS installation:
 
 ```bash
 python3 -m venv --system-site-packages oxcm
