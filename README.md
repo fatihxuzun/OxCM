@@ -42,37 +42,32 @@ Start the container from 'Docker -> Containers' and initiate the same container:
 docker exec -it <container-name> /bin/bash
 ```
 
-Create python3 environment for FEniCS installation:
-
-```bash
-apt-get install python3-venv
-python3 -m venv fenics-oxcm
-source fenics-oxcm/bin/activate
-```
-
 Install prerequisites:
 
 ```bash
 apt-get update
 apt-get install sudo
 apt-get install pip
+apt-get install git
+apt-get install python3-click
+apt-get install python3-venv
 ```
 
 Install FEniCS on Ubuntu:
 
 ```bash
-sudo apt-get install software-properties-common
+sudo apt update
+sudo apt install software-properties-common
 sudo add-apt-repository ppa:fenics-packages/fenics
-sudo apt-get update
-sudo apt-get install fenics
+sudo apt update
+sudo apt install fenics
 ```
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install latest supported versions of numpy, scipy and click:
+Create python3 environment for FEniCS installation:
 
 ```bash
-pip install --upgrade numpy
-pip install --upgrade scipy
-pip install --upgrade click
+python3 -m venv --system-site-packages oxcm
+source oxcm/bin/activate
 ```
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install OxCM:
