@@ -16,8 +16,9 @@ https://fenicsproject.org/download/archive/
 
 The latest version of the OxCM contour method solver was tested by Docker Desktop 4.40.0:
 
+```bash
 https://docs.docker.com/desktop/
-
+```
 
 Install the Docker Desktop on Windows, MAC with Intel chip or MAC with Apple silicon and pull official ubuntu image:
 
