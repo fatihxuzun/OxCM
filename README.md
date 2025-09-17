@@ -74,7 +74,7 @@ sudo apt update
 sudo apt install fenics
 ```
 
-Create Python 3 environment for FEniCS installation:
+Create Python 3 environment for OxCM installation:
 
 ```bash
 python3 -m venv --system-site-packages oxcm
