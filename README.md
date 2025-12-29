@@ -130,6 +130,8 @@ This solver has been developed as a part of the study that aims to understand th
 Uzun, F., Korsunsky, A.M. The OxCM contour method solver for residual stress evaluation. Engineering with Computers 40, 3059–3072 (2024). https://doi.org/10.1007/s00366-024-01959-3
 
 ## Publications
+Uzun, F., Korsunsky, A.M. Eigenstrain Tomography: Full-Field Residual Stress Reconstruction via Polycrystalline Diffraction Projections. Acta Materialia (2025). https://doi.org/10.1016/j.actamat.2025.121872
+
 Uzun, F., Slim, M.F., Basoalto, H. et al. Application of strain tomography and contour method to residual stress analysis in additively manufactured CM247LC superalloy parts. Prog Addit Manuf (2025). https://doi.org/10.1007/s40964-025-01116-2
 
 Uzun, F., Korsunsky, A.M. Reconstruction of residual stresses in additively manufactured Inconel 718 bridge structures using contour method. Int J Adv Manuf Technol 137, 4573–4582 (2025). https://doi.org/10.1007/s00170-025-15417-x
