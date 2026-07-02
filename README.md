@@ -109,7 +109,7 @@ Mesh file and data file should be located in the user created project folder:
 Running OxCM command line interface (CLI) using training files:
 
 ```bash
-OxCM --degree 1 --young 200e3 --poisson 0.29 --mesh 'myMesh.xml' --data 'myData.txt'
+OxCM --degree 2 --young 200e3 --poisson 0.29 --mesh 'myMesh.xml' --data 'myData.txt'
 ```
 
 ## Outputs
